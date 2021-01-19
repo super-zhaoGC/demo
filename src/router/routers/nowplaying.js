@@ -1,0 +1,1 @@
+export default { path: '/film/nowplaying', component: ()=>import('@/views/Film/NowPlaying.vue') }

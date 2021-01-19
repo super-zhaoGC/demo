@@ -1,0 +1,1 @@
+export default { path: '/film/comingsoon', component: ()=>import('@/views/Film/ComingSoon') }

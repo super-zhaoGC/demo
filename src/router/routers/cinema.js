@@ -1,0 +1,1 @@
+export default { path: '/cinema', component: ()=>import('@/views/Cinema/Cinema.vue') }
