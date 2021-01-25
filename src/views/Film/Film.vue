@@ -1,7 +1,7 @@
 <template>
   <div>
     <FilmListTopNav/>
-    <!-- <router-view></router-view> -->
+    <router-view></router-view>
   </div>
 </template>
 
