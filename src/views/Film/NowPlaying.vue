@@ -11,7 +11,7 @@ export default {
   data(){
     return{
       list:[],
-      type:1
+      type:1,
     }
   },
   components:{

@@ -2,6 +2,20 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 
+import store from '@/store/vuex'
+
+import VueLazyload from 'vue-lazyload'
+Vue.use(VueLazyload,{
+  loading:'https://img95.699pic.com/photo/40166/9676.gif_wh860.gif'
+})
+
+
+// 定义事件总线
+Vue.prototype.eventBus=new Vue()
+
+
+
+
 // // 导入axios
 // import axios from 'axios'
 
@@ -25,5 +39,6 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
+  store,
   render: h => h(App)
 }).$mount('#app')
